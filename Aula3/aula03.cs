@@ -2,6 +2,7 @@ using System;
 
 class Aula03{
     static void  Main(string[] args){
+        /*
         // tipo primitivo de dados
         byte n1 = 10; // é uma variavel de 8 bits, que não tem sinal e só recebe valores entre 0 e 255
         int num = 0; // tipo inteiro com sinal, pode receber numeros negativos e tem tamanho de 32 bits de dados;
@@ -12,8 +13,13 @@ class Aula03{
         string nome ="Michely"; // conjunto de caracteres, pode armazenar mais textos
         var aux = 10; // o tipo da variavel não é especificado e seu tipo é definido pela sua atribuição na hora da execução do programa
 
-        Console.WriteLine(nome);
+        Console.WriteLine("Nome:" + nome);
+    */
+    int num1, num2, res;
 
-
+    num1 = 10;
+    num2 = 2;
+    res = num1 * num2;
+        Console.WriteLine("resposta: " + res);
     }
 }
